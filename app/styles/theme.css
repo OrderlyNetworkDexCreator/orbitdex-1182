@@ -38,16 +38,16 @@
   --oui-color-base-3: 76 68 98;
   --oui-color-base-4: 40 35 32;
   --oui-color-base-5: 29 26 22;
-  --oui-color-base-6: 194 103 0;
+  --oui-color-base-6: 17 15 14;
   --oui-color-base-7: 0 0 0;
-  --oui-color-base-8: 204 99 0;
+  --oui-color-base-8: 3 3 2;
   --oui-color-base-9: 0 0 0;
   --oui-color-base-10: 14 13 18;
 
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 255 140 0;
 
-  --oui-color-trading-loss: 255 136 0;
+  --oui-color-trading-loss: 199 0 0;
   --oui-color-trading-loss-contrast: 255 255 255;
   --oui-color-trading-profit: 55 255 0;
   --oui-color-trading-profit-contrast: 255 255 255;
