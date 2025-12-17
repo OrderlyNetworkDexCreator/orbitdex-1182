@@ -94,13 +94,8 @@
   --oui-spacing-xl: 33.75rem;
 }
 
-html, body {
-  font-family: 'Manrope', sans-serif !important;
-  font-size: 16px !important;
-}
-
-/* Hide TradingView source label */
-.tv-chart-view__header,
-.tv-symbol-header__source {
+/* Hide Orderly attribution */
+.oui-scaffold-footer-powered-by {
   display: none !important;
 }
+
