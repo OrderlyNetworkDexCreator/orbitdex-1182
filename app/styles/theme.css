@@ -3,8 +3,8 @@
   --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 255 140 0;
-  --oui-color-primary-light: 255 165 0;
+  --oui-color-primary: 237 237 237;
+  --oui-color-primary-light: 255 255 255;
   --oui-color-primary-darken: 255 100 0;
   --oui-color-primary-contrast: 255 255 255;
 
@@ -31,7 +31,7 @@
   --oui-color-warning-contrast: 255 255 255;
 
   --oui-color-fill: 26 23 20;
-  --oui-color-fill-active: 235 137 0;
+  --oui-color-fill-active: 163 87 0;
 
   --oui-color-base-1: 189 110 0;
   --oui-color-base-2: 85 75 110;
@@ -40,7 +40,7 @@
   --oui-color-base-5: 29 26 22;
   --oui-color-base-6: 17 15 14;
   --oui-color-base-7: 0 0 0;
-  --oui-color-base-8: 230 145 0;
+  --oui-color-base-8: 0 0 0;
   --oui-color-base-9: 0 0 0;
   --oui-color-base-10: 14 13 18;
 
@@ -97,14 +97,4 @@
 html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
-}
-
-html, body {
-  font-family: 'Manrope', sans-serif !important;
-  font-size: 16px !important;
-}
-
-/* Hide Orderly attribution */
-.oui-scaffold-footer-powered-by {
-  display: none !important;
 }
