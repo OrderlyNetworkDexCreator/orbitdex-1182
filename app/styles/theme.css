@@ -107,3 +107,10 @@ html, body {
 .tv-lightweight-charts {
   background-color: #0A1624 !important;
 }
+
+a[href*="orderly.network"],
+a[href*="orderly"],
+.powered-by,
+.orderly-powered {
+  display: none !important;
+}
