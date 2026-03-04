@@ -118,3 +118,23 @@ a[href*="orderly"],
 [data-testid="orderly-powered-by"] {
   display: none !important;
 }
+
+.orderly-app-container a[href*="orderly.network"] {
+  display: none !important;
+}
+
+.orderly-app-container a[href*="orderly"] {
+  display: none !important;
+}
+
+.orderly-app-container img[src*="orderly"] {
+  display: none !important;
+}
+
+.orderly-app-container svg[class*="orderly"] {
+  display: none !important;
+}
+
+a[title="Powered by Orderly"] {
+  display: none !important;
+}
