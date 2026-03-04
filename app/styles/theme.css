@@ -138,3 +138,7 @@ a[href*="orderly"],
 a[title="Powered by Orderly"] {
   display: none !important;
 }
+
+.orderly-app-container a[href*="orderly"] {
+  display: none !important;
+}
