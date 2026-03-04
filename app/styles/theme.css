@@ -108,9 +108,13 @@ html, body {
   background-color: #0A1624 !important;
 }
 
-a[href*="orderly.network"],
+a[href*="orderly-powered-by"],
 a[href*="orderly"],
 .powered-by,
 .orderly-powered {
+  display: none !important;
+}
+
+[data-testid="orderly-powered-by"] {
   display: none !important;
 }
