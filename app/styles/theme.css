@@ -114,25 +114,7 @@ a[href*="orderly"],
 .orderly-powered {
   display: none !important;
 }
-/* hide "Powered by Orderly" anywhere on the page */
-a[title*="Powered by"][title*="Orderly"],
-a[aria-label*="Powered by"][aria-label*="Orderly"],
-a[href*="orderly.network"],
-a[href*="orderly-powered"],
-a[href*="orderly"] {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
-
-/* often the badge is wrapped in a small fixed container */
-a[href*="orderly.network"] * ,
-a[href*="orderly"] * {
-  display: none !important;
-}
-/* kill small fixed/absolute bottom-right badges */
-.orderly-app-container [style*="position: fixed"][style*="bottom"],
-.orderly-app-container [style*="position: absolute"][style*="bottom"] {
+.footer-powered-by,
+.footer-powered-by * {
   display: none !important;
 }
