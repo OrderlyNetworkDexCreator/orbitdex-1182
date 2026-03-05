@@ -114,31 +114,20 @@ a[href*="orderly"],
 .orderly-powered {
   display: none !important;
 }
-
-[data-testid="orderly-powered-by"] {
+/* hide "Powered by Orderly" anywhere on the page */
+a[title*="Powered by"][title*="Orderly"],
+a[aria-label*="Powered by"][aria-label*="Orderly"],
+a[href*="orderly.network"],
+a[href*="orderly-powered"],
+a[href*="orderly"] {
   display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
-.orderly-app-container a[href*="orderly.network"] {
-  display: none !important;
-}
-
-.orderly-app-container a[href*="orderly"] {
-  display: none !important;
-}
-
-.orderly-app-container img[src*="orderly"] {
-  display: none !important;
-}
-
-.orderly-app-container svg[class*="orderly"] {
-  display: none !important;
-}
-
-a[title="Powered by Orderly"] {
-  display: none !important;
-}
-
-.orderly-app-container a[href*="orderly"] {
+/* often the badge is wrapped in a small fixed container */
+a[href*="orderly.network"] * ,
+a[href*="orderly"] * {
   display: none !important;
 }
