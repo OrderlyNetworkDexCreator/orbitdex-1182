@@ -131,3 +131,8 @@ a[href*="orderly.network"] * ,
 a[href*="orderly"] * {
   display: none !important;
 }
+/* kill small fixed/absolute bottom-right badges */
+.orderly-app-container [style*="position: fixed"][style*="bottom"],
+.orderly-app-container [style*="position: absolute"][style*="bottom"] {
+  display: none !important;
+}
