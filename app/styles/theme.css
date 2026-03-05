@@ -104,17 +104,9 @@ html, body {
   font-family: 'Manrope', sans-serif !important;
 }
 
-.tv-lightweight-charts {
-  background-color: #0A1624 !important;
-}
-
-a[href*="orderly-powered-by"],
-a[href*="orderly"],
-.powered-by,
-.orderly-powered {
+.orderly-app-container .oui-scaffold-footer-powered-by,
+.orderly-app-container .oui-scaffold-footer-powered-by * {
   display: none !important;
-}
-.footer-powered-by,
-.footer-powered-by * {
-  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
 }
